@@ -1,0 +1,940 @@
+@import "mq";
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+ .app-group {
+	 display: flex;
+	 background-color: #f6f6f6;
+}
+ .app-group.lyt {
+	 position: relative;
+	 overflow: hidden;
+	 min-height: 812px;
+	 flex-grow: 1;
+	 margin: 0px;
+}
+ .app-flex {
+	 display: flex;
+	 flex-direction: column;
+}
+ .app-flex.lyt3 {
+	 position: relative;
+	 overflow: visible;
+	 flex-grow: 1;
+	 margin: 0px 0px 24px;
+}
+ .app-cover-group {
+	 display: flex;
+	 background-color: #fff;
+	 border-style: none;
+	 border-radius: 0px 0px 15px 15px;
+}
+ .app-cover-group.lyt {
+	 position: relative;
+	 overflow: visible;
+	 min-height: 211px;
+	 margin: 0px;
+}
+ .app-flex1 {
+	 display: flex;
+	 flex-wrap: wrap;
+}
+ .app-flex1.lyt {
+	 position: relative;
+	 overflow: visible;
+	 flex-grow: 1;
+	 margin: 14px 20.01px 23.82px 36px;
+}
+ .app-flex1-col {
+	 display: flex;
+	 flex: 0 1 315.93px;
+     flex-grow: 1;
+    
+}
+ .app-flex.lyt {
+	 position: relative;
+	 overflow: visible;
+	 flex-grow: 1;
+	 margin: 0px;
+}
+ .app-flex3 {
+	 display: flex;
+}
+ .app-flex3.lyt {
+	 position: relative;
+	 overflow: visible;
+	 margin: 0px 0px 0px 4.5px;
+}
+ .app-flex3-col {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 28px;
+}
+ .app-small-text-body {
+	 display: flex;
+	 justify-content: center;
+	 font: 700 10px "Roboto", Helvetica, Arial, serif;
+	 color: #625f5f;
+	 text-align: center;
+	 letter-spacing: 0;
+}
+ .app-small-text-body.lyt {
+	 position: relative;
+	 flex-grow: 1;
+	 margin: 0px 0px 0.3px;
+}
+ .app-flex3-spacer {
+	 display: flex;
+	 flex: 1 1 205.5px;
+}
+ .app-img {
+	 background: var(--src) center center / contain no-repeat;
+}
+ .app-img.lyt {
+	 position: relative;
+	 height: 5.31px;
+	 width: 3.77px;
+	 min-width: 3.77px;
+	 margin: 6.69px 0px 2.3px;
+}
+ .app-flex3-spacer1 {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 1.3px;
+}
+ .app-img.lyt1 {
+	 position: relative;
+	 height: 6.69px;
+	 width: 3.77px;
+	 min-width: 3.77px;
+	 margin: 5.31px 0px 2.3px;
+}
+ .app-flex3-spacer2 {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 1.32px;
+}
+ .app-img.lyt2 {
+	 position: relative;
+	 height: 8.43px;
+	 width: 3.77px;
+	 min-width: 3.77px;
+	 margin: 3.57px 0px 2.3px;
+}
+ .app-flex3-spacer3 {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 1.29px;
+}
+ .app-img.lyt3 {
+	 position: relative;
+	 height: 11px;
+	 width: 3.77px;
+	 min-width: 3.77px;
+	 margin: 1px 0px 2.3px;
+}
+ .app-flex3-spacer4 {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 7.01px;
+}
+ .app-group1 {
+	 display: flex;
+}
+ .app-group1.lyt {
+	 position: relative;
+	 overflow: visible;
+	 flex: 0 1 18px;
+	 min-height: 12px;
+	 margin: 1px 0px 1.3px;
+}
+ .app-decorator {
+	 background: var(--src) center center / contain no-repeat;
+}
+ .app-decorator.lyt {
+	 position: absolute;
+	 top: 0px;
+	 height: 4.2px;
+	 left: 0px;
+	 right: 0px;
+	 width: 6.27px;
+	 min-width: 6.27px;
+	 display: block;
+	 margin: 7.8px auto 0px;
+}
+ .app-decorator.lyt1 {
+	 position: absolute;
+	 top: 0px;
+	 height: 3.8px;
+	 left: 0px;
+	 width: 11.92px;
+	 min-width: 11.92px;
+	 margin: 4.06px 3.03px 4.14px 3.05px;
+}
+ .app-image {
+	 background: var(--src) center center / contain no-repeat;
+}
+ .app-image.lyt {
+	 position: relative;
+	 height: 5.01px;
+	 width: 18px;
+	 min-width: 18px;
+	 margin: 0px 0px 6.99px;
+}
+ .app-flex3-spacer5 {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 7.69px;
+}
+ .app-cover-group1 {
+	 display: flex;
+	 background: var(--src) center center / cover no-repeat;
+}
+ .app-cover-group1.lyt {
+	 position: relative;
+	 overflow: visible;
+	 flex: 0 1 26.24px;
+	 min-height: 12.6px;
+	 margin: 1.7px 0px 0px;
+}
+ .app-image.lyt1 {
+	 position: relative;
+	 height: 9.32px;
+	 width: 22.93px;
+	 min-width: 22.93px;
+	 margin: 1.64px 1.66px;
+}
+ .app-flex4 {
+	 display: flex;
+}
+ .app-flex4.lyt {
+	 position: relative;
+	 overflow: visible;
+	 margin: 19.7px 0px 0px;
+}
+ .app-cover-group2 {
+	 display: flex;
+	 background: var(--src) center center / contain no-repeat;
+}
+ .app-cover-group2.lyt {
+	 position: relative;
+	 overflow: visible;
+	 flex: 0 1 15px;
+	 min-height: 19.46px;
+	 margin: 2px 0px 0px;
+}
+ .app-icon {
+	 background: var(--src) center center / contain no-repeat;
+}
+ .app-icon.lyt {
+	 position: relative;
+	 min-height: 3.63px;
+	 width: 3.63px;
+	 min-width: 3.63px;
+	 display: block;
+	 margin: 6.03px auto 9.8px;
+}
+ .app-flex4-spacer {
+	 display: flex;
+	 flex: 0 1 10px;
+}
+ .app-small-text-body1-box {
+	 display: flex;
+	 justify-content: center;
+}
+ .app-small-text-body1-box.lyt {
+	 position: relative;
+	 flex: 0 1 94px;
+	 margin: 5px 0px 6.46px;
+}
+ .app-small-text-body1 {
+	 font: 500 7.5px "Roboto", Helvetica, Arial, serif;
+	 color: #000;
+	 text-align: center;
+	 letter-spacing: 0;
+}
+ .app-small-text-body1-span0 {
+	 font: 500 0.8333333333em "Roboto", Helvetica, Arial, serif;
+	 color: #000 ff;
+	 letter-spacing: 0;
+}
+ .app-small-text-body1-span1 {
+	 font: 500 0.8333333333em "Roboto", Helvetica, Arial, serif;
+	 color: #f8b464 ff;
+	 letter-spacing: 0;
+}
+ .app-flex4-spacer1 {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 2px;
+}
+ .app-flex4-col {
+	 display: flex;
+	 flex: 1 0 auto;
+	 min-width: 9px;
+}
+ .app-img.lyt4 {
+	 position: relative;
+	 height: 3.5px;
+	 width: 9px;
+	 min-width: 9px;
+	 margin: 9px 0px 8.96px;
+}
+ .app-flex4-spacer2 {
+	 display: flex;
+	 flex: 0 1 148px;
+}
+ .app-change {
+	 display: flex;
+	 justify-content: center;
+	 font: 500 7.5px "Roboto", Helvetica, Arial, serif;
+	 color: #a8a5a5;
+	 text-align: center;
+	 letter-spacing: 0;
+}
+ .app-change.lyt {
+	 position: relative;
+	 flex: 0 1 33px;
+	 margin: 0px 0px 11.46px;
+}
+ .app-cover-group3 {
+	 display: flex;
+	 background-color: #f6f6f6;
+	 border-radius: 14px 14px 14px 14px;
+}
+ .app-cover-group3.lyt {
+	 position: relative;
+	 overflow: visible;
+	 min-height: 49px;
+	 margin: 22.54px 4.93px 0px 0px;
+}
+ .app-text-body {
+	 display: flex;
+	 justify-content: center;
+	 font: 11.6666666667px "Roboto", Helvetica, Arial, serif;
+	 color: #000;
+	 text-align: center;
+	 letter-spacing: 0;
+}
+ .app-text-body.lyt {
+	 position: relative;
+	 flex-grow: 1;
+	 margin: 15px 43.5px 18px 66.5px;
+}
+ .app-flex5 {
+	 display: flex;
+}
+ .app-flex5.lyt {
+	 position: relative;
+	 overflow: visible;
+	 margin: 22px 69.7px 0px 87.23px;
+}
+ .app-distance {
+	 font: 7.5px "Roboto", Helvetica, Arial, serif;
+	 color: #c3c3c3;
+	 letter-spacing: 0;
+}
+ .app-distance.lyt {
+	 position: relative;
+	 flex: 0 0 auto;
+	 margin: 0px;
+}
+ .app-flex5-spacer {
+	 display: flex;
+	 flex: 1 1 64px;
+}
+ .app-delivery-time {
+	 font: 7.5px "Roboto", Helvetica, Arial, serif;
+	 color: #c3c3c3;
+	 letter-spacing: 0;
+}
+ .app-delivery-time.lyt {
+	 position: relative;
+	 flex: 0 0 auto;
+	 margin: 0px;
+}
+ .app-flex6 {
+	 display: flex;
+}
+ .app-flex6.lyt {
+	 position: relative;
+	 overflow: visible;
+	 margin: 4px 75px 0px;
+}
+ .app-cover-group4 {
+	 display: flex;
+	 background: var(--src) center center / cover no-repeat;
+}
+ .app-cover-group4.lyt {
+	 position: relative;
+	 overflow: visible;
+	 flex: 0 1 7.71px;
+	 min-height: 10px;
+	 margin: 0px 0px 0.18px;
+}
+ .app-icon.lyt1 {
+	 position: relative;
+	 height: 1.86px;
+	 width: 1.86px;
+	 min-width: 1.86px;
+	 display: block;
+	 margin: 3.1px auto 5.04px;
+}
+ .app-flex6-spacer {
+	 display: flex;
+	 flex: 0 1 4.52px;
+}
+ .app-small-text-body2 {
+	 font: 7.5px "Roboto", Helvetica, Arial, serif;
+	 color: #000;
+	 letter-spacing: 0;
+}
+ .app-small-text-body2.lyt {
+	 position: relative;
+	 margin: 0px 0px 0.18px;
+}
+ .app-flex6-spacer1 {
+	 display: flex;
+	 flex: 1 0 auto;
+	 min-width: 31.5px;
+}
+ .app-cover-group5 {
+	 display: flex;
+	 background: var(--src) center center / cover no-repeat;
+}
+ .app-cover-group5.lyt {
+	 position: relative;
+	 overflow: visible;
+	 flex: 0 1 9.68px;
+	 min-height: 9.68px;
+	 margin: 0.5px 0px 0px;
+}
+ .app-icon.lyt2 {
+	 position: relative;
+	 height: 3.21px;
+	 width: 3.2px;
+	 min-width: 3.2px;
+	 margin: 1.63px 0px 4.84px 1.64px;
+}
+ .app-flex6-spacer2 {
+	 display: flex;
+	 flex: 0 1 6.82px;
+}
+ .app-small-text-body3 {
+	 font: 7.5px "Roboto", Helvetica, Arial, serif;
+	 color: #000;
+	 letter-spacing: 0;
+}
+ .app-small-text-body3.lyt {
+	 position: relative;
+	 margin: 0px 0px 0.18px;
+}
+ .app-flex7 {
+	 display: flex;
+}
+ .app-flex7.lyt {
+	 position: relative;
+	 overflow: visible;
+	 margin: 36px 28px 0px 55px;
+}
+ .app-order-details {
+	 font: 700 11.6666666667px "Roboto", Helvetica, Arial, serif;
+	 color: #000;
+	 letter-spacing: 0;
+}
+ .app-order-details.lyt {
+	 position: relative;
+	 flex: 0 0 auto;
+	 margin: 8px 0px 5px;
+}
+ .app-flex7-spacer {
+	 display: flex;
+	 flex: 1 1 97px;
+}
+ .app-cover-group6 {
+	 display: flex;
+}
+ .app-cover-group6.lyt {
+	 position: relative;
+	 overflow: visible;
+	 flex: 0 1 109px;
+	 min-height: 29px;
+	 margin: 0px;
+}
+ .app-background {
+	 background-color: #fff;
+	 border: 1px solid #e0e0e0;
+	 border-radius: 6px 6px 6px 6px;
+}
+ .app-background.lyt {
+	 position: absolute;
+	 top: 0px;
+	 height: 29px;
+	 left: 0px;
+	 flex-grow: 1;
+	 right: 0px;
+	 margin: 0px;
+}
+ .app-small-text-body4 {
+	 display: flex;
+	 justify-content: flex-end;
+	 font: 9.1666666667px "Roboto", Helvetica, Arial, serif;
+	 color: #a9a9a9;
+	 text-align: right;
+	 letter-spacing: 0;
+}
+ .app-small-text-body4.lyt {
+	 position: relative;
+	 flex-grow: 1;
+	 margin: 8px 17px;
+}
+ .app-flex8 {
+	 display: flex;
+}
+ .app-flex8.lyt {
+	 position: relative;
+	 overflow: visible;
+	 margin: 17px 25px 0px 55px;
+}
+ .app-cover-group7 {
+	 display: flex;
+	 background-color: #f8b464;
+	 border-radius: 3px 3px 3px 3px;
+}
+ .app-cover-group7.lyt {
+	 position: relative;
+	 overflow: visible;
+	 flex: 0 1 26px;
+	 min-height: 26px;
+	 margin: 0px;
+}
+ .app-text-body1 {
+	 display: flex;
+	 justify-content: flex-end;
+	 font: 11.6666666667px "Roboto", Helvetica, Arial, serif;
+	 color: #fff;
+	 text-align: right;
+	 letter-spacing: 0;
+}
+ .app-text-body1.lyt {
+	 position: relative;
+	 flex-grow: 1;
+	 margin: 5px;
+}
+ .app-flex8-spacer {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 10px;
+}
+ .app-pizza-milo {
+	 font: 700 11.6666666667px "Roboto", Helvetica, Arial, serif;
+	 color: #000;
+	 letter-spacing: 0;
+}
+ .app-pizza-milo.lyt {
+	 position: relative;
+	 flex: 0 0 auto;
+	 margin: 5px 0px;
+}
+ .app-flex8-spacer1 {
+	 display: flex;
+	 flex: 1 1 161px;
+}
+ .app-text-body2 {
+	 font: 11.6666666667px "Roboto", Helvetica, Arial, serif;
+	 color: #000;
+	 letter-spacing: 0;
+}
+ .app-text-body2.lyt {
+	 position: relative;
+	 flex: 0 0 auto;
+	 margin: 0px 0px 10px;
+}
+ .app-flex9 {
+	 display: flex;
+}
+ .app-flex9.lyt {
+	 position: relative;
+	 overflow: visible;
+	 margin: 12px 25px 0px 55px;
+}
+ .app-cover-group8 {
+	 display: flex;
+	 background-color: #f8b464;
+	 border-radius: 3px 3px 3px 3px;
+}
+ .app-cover-group8.lyt {
+	 position: relative;
+	 overflow: visible;
+	 flex: 0 1 26px;
+	 min-height: 26px;
+	 margin: 0px;
+}
+ .app-text-body3 {
+	 display: flex;
+	 justify-content: flex-end;
+	 font: 11.6666666667px "Roboto", Helvetica, Arial, serif;
+	 color: #fff;
+	 text-align: right;
+	 letter-spacing: 0;
+}
+ .app-text-body3.lyt {
+	 position: relative;
+	 flex-grow: 1;
+	 margin: 5px;
+}
+ .app-flex9-spacer {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 10px;
+}
+ .app-crispy-burger {
+	 font: 700 11.6666666667px "Roboto", Helvetica, Arial, serif;
+	 color: #000;
+	 letter-spacing: 0;
+}
+ .app-crispy-burger.lyt {
+	 position: relative;
+	 flex: 0 0 auto;
+	 margin: 5px 0px;
+}
+ .app-flex9-spacer1 {
+	 display: flex;
+	 flex: 1 1 141px;
+}
+ .app-text-body4 {
+	 font: 11.6666666667px "Roboto", Helvetica, Arial, serif;
+	 color: #000;
+	 letter-spacing: 0;
+}
+ .app-text-body4.lyt {
+	 position: relative;
+	 flex: 0 0 auto;
+	 margin: 8px 0px 2px;
+}
+ .app-flex10 {
+	 display: flex;
+}
+ .app-flex10.lyt {
+	 position: relative;
+	 overflow: visible;
+	 margin: 33px 21px 0px 53px;
+}
+ .app-flex10-col {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 145px;
+}
+ .app-paragraph-body-box.lyt {
+	 position: relative;
+	 flex-grow: 1;
+	 margin: 3px 0px 0px;
+}
+ .app-paragraph-body {
+	 overflow: visible;
+	 margin-top: 0px;
+	 margin-bottom: 0px;
+	 margin: 0px;
+	 font: 11.6666666667px "Roboto", Helvetica, Arial, serif;
+	 color: #000;
+	 letter-spacing: 0;
+	 white-space: pre-wrap;
+}
+ .app-paragraph-body-span0 {
+	 font: 700 0.8333333333em "Roboto", Helvetica, Arial, serif;
+	 color: #000 ff;
+	 letter-spacing: 0;
+}
+ .app-paragraph-body-span1 {
+	 font: 0.8333333333em "Roboto", Helvetica, Arial, serif;
+	 color: #f8b464 ff;
+	 letter-spacing: 0;
+}
+ .app-paragraph-body-span2 {
+	 font: 700 0.8333333333em "Roboto", Helvetica, Arial, serif;
+	 color: #000 ff;
+	 letter-spacing: 0;
+}
+ .app-flex10-spacer {
+	 display: flex;
+	 flex: 1 1 120px;
+}
+ .app-flex.lyt1 {
+	 position: relative;
+	 overflow: visible;
+	 flex: 0 1 36px;
+	 margin: 0px 0px 2px;
+}
+ .app-text-body5 {
+	 font: 11.6666666667px "Roboto", Helvetica, Arial, serif;
+	 color: #000;
+	 letter-spacing: 0;
+}
+ .app-text-body5.lyt {
+	 position: relative;
+	 margin: 0px 4px;
+}
+ .app-text-body6 {
+	 font: 700 15px "Roboto", Helvetica, Arial, serif;
+	 color: #ee2929;
+	 letter-spacing: 0;
+}
+ .app-text-body6.lyt {
+	 position: relative;
+	 margin: 44px 0px 0px;
+}
+ .app-cover-group9 {
+	 display: flex;
+}
+ .app-cover-group9.lyt {
+	 position: relative;
+	 overflow: visible;
+	 min-height: 111px;
+	 margin: 74px 28px 0px 49px;
+}
+ .app-background1 {
+	 background-color: #f6f6f6;
+	 border: 1px dashed #c5c5c5;
+	 border-radius: 18px 18px 18px 18px;
+}
+ .app-background1.lyt {
+	 position: absolute;
+	 top: 0px;
+	 height: 111px;
+	 left: 0px;
+	 flex-grow: 1;
+	 right: 0px;
+	 margin: 0px;
+}
+ .app-foreground {
+	 display: flex;
+}
+ .app-foreground.lyt {
+	 position: relative;
+	 overflow: visible;
+	 flex-grow: 1;
+	 margin: 28px 9px 29px 21px;
+}
+ .app-flex.lyt2 {
+	 position: relative;
+	 overflow: visible;
+	 flex: 0 1 20px;
+	 margin: 0px;
+}
+ .app-rect {
+	 border: 1px solid #a3a3a3;
+	 border-radius: 3px 3px 3px 3px;
+}
+ .app-rect.lyt {
+	 position: relative;
+	 height: 20px;
+	 margin: 0px;
+}
+ .app-rect1 {
+	 background-color: #f5463b;
+	 border-radius: 3px 3px 3px 3px;
+}
+ .app-rect1.lyt {
+	 position: relative;
+	 height: 20px;
+	 margin: 14px 0px 0px;
+}
+ .app-foreground-spacer {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 16px;
+}
+ .app-foreground-col {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 107px;
+}
+ .app-paragraph-body1-box.lyt {
+	 position: relative;
+	 flex-grow: 1;
+	 margin: 3px 0px;
+}
+ .app-paragraph-body1-span0 {
+	 font: 0.8333333333em "Roboto", Helvetica, Arial, serif;
+	 color: #aeaeae ff;
+	 letter-spacing: 0;
+}
+ .app-paragraph-body1-span1 {
+	 font: 700 0.8333333333em "Roboto", Helvetica, Arial, serif;
+	 color: #000 ff;
+	 letter-spacing: 0;
+}
+ .app-foreground-spacer1 {
+	 display: flex;
+	 flex: 1 0 auto;
+	 min-width: 23px;
+}
+ .app-foreground-col1 {
+	 display: flex;
+	 flex: 0 1 31px;
+}
+ .app-cover-group10 {
+	 display: flex;
+	 background-color: #000;
+	 border-radius: 3px 3px 3px 3px;
+}
+ .app-cover-group10.lyt {
+	 position: relative;
+	 overflow: visible;
+	 min-height: 16px;
+	 width: 31px;
+	 min-width: 31px;
+	 margin: 37px 0px 1px;
+}
+ .app-icon-wrap {
+	 display: flex;
+}
+ .app-icon-wrap.lyt {
+	 position: relative;
+	 overflow: visible;
+	 min-height: 10px;
+	 flex-grow: 1;
+	 margin: 3px 7px 3px 6px;
+}
+ .app-icon.lyt3 {
+	 position: absolute;
+	 top: 0px;
+	 height: 10px;
+	 width: 10px;
+	 min-width: 10px;
+	 right: 0px;
+	 margin: 0px;
+}
+ .app-icon.lyt4 {
+	 position: relative;
+	 height: 10px;
+	 width: 10px;
+	 min-width: 10px;
+	 margin: 0px;
+}
+ .app-icon.lyt5 {
+	 position: relative;
+	 height: 6px;
+	 width: 6px;
+	 min-width: 6px;
+	 margin: 42px 0px 6px;
+}
+ .app-foreground-spacer3 {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 1px;
+}
+ .app-icon.lyt6 {
+	 position: relative;
+	 height: 6px;
+	 width: 6px;
+	 min-width: 6px;
+	 margin: 42px 0px 6px;
+}
+ .app-foreground-spacer4 {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 1px;
+}
+ .app-icon.lyt7 {
+	 position: relative;
+	 height: 6px;
+	 width: 6px;
+	 min-width: 6px;
+	 margin: 42px 0px 6px;
+}
+ .app-foreground-spacer5 {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 1px;
+}
+ .app-icon.lyt8 {
+	 position: relative;
+	 height: 6px;
+	 width: 6px;
+	 min-width: 6px;
+	 margin: 42px 0px 6px;
+}
+ .app-foreground-spacer6 {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 5px;
+}
+ .app-foreground-col2 {
+	 display: flex;
+	 flex: 0 0 auto;
+	 min-width: 23px;
+}
+ .app-small-text-body5 {
+	 display: flex;
+	 justify-content: center;
+	 font: 7.5px "Roboto", Helvetica, Arial, serif;
+	 color: #000;
+	 text-align: center;
+	 letter-spacing: 0;
+}
+ .app-small-text-body5.lyt {
+	 position: relative;
+	 flex-grow: 1;
+	 margin: 39px 0px 5px;
+}
+ .app-cover-group11 {
+	 display: flex;
+}
+ .app-cover-group11.lyt {
+	 position: relative;
+	 overflow: visible;
+	 min-height: 49px;
+	 margin: 0px 28px 0px 49px;
+}
+ .app-background2 {
+	 background-color: #f6f6f6;
+	 border: 1px dashed #c5c5c5;
+	 border-radius: 18px 18px 18px 18px;
+}
+ .app-background2.lyt {
+	 position: absolute;
+	 top: 0px;
+	 height: 49px;
+	 left: 0px;
+	 flex-grow: 1;
+	 right: 0px;
+	 margin: 0px;
+}
+ .app-text-body7 {
+	 display: flex;
+	 justify-content: center;
+	 font: 15px "Roboto", Helvetica, Arial, serif;
+	 color: #a3a3a3;
+	 text-align: center;
+	 letter-spacing: 0;
+}
+ .app-text-body7.lyt {
+	 position: relative;
+	 flex-grow: 1;
+	 margin: 14px 0px;
+}
+ .app-cover-group12 {
+	 display: flex;
+	 background-color: #f5463b;
+	 border-radius: 5px 5px 5px 5px;
+}
+ .app-cover-group12.lyt {
+	 position: relative;
+	 overflow: visible;
+	 min-height: 40px;
+	 margin: 41px 28px 0px 34px;
+}
+ .app-pay-now {
+	 display: flex;
+	 justify-content: center;
+	 font: 700 15px "Roboto", Helvetica, Arial, serif;
+	 color: #fff;
+	 text-align: center;
+	 letter-spacing: 0;
+}
+ .app-pay-now.lyt {
+	 position: relative;
+	 width: 76px;
+	 min-width: 76px;
+	 margin: 9px auto 10px;
+}
+ 

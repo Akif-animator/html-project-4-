@@ -1,0 +1,971 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "mq";
+
+$font_type0: 700 12px/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type1: 500 9px/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type2: 500 1em/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type3: 14px/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type4: 9px/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type5: 700 14px/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type6: 11px/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type7: 700 1em/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type8: 1em/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type9: 700 18px/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type10: 18px/1.2 "Roboto", Helvetica, Arial, serif;
+
+$font_color_type0: rgb(246, 246, 246);
+$font_color_type1: rgb(255, 255, 255);
+$font_color_type2: rgb(0, 0, 0);
+$font_color_type3: #000000ff;
+$font_color_type4: #f8b464ff;
+$font_color_type5: rgb(195, 195, 195);
+$font_color_type6: rgb(248, 180, 100);
+$font_color_type7: rgb(245, 70, 59);
+
+$background_type0: var(--src) center center / contain no-repeat;
+$background_type1: var(--src) center center / cover no-repeat;
+
+$border_type0: 1px dashed rgb(197, 197, 197);
+
+$border_radius_type0: 3px 3px 3px 3px;
+$border_radius_type1: 18px 18px 18px 18px;
+
+.app- {
+  &group {
+    display: flex;
+    background-color: $font_color_type0;
+  }
+  &group.lyt {
+    position: relative;
+    overflow: hidden;
+    min-height: 812px;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &flex {
+    display: flex;
+    flex-direction: column;
+  }
+  &flex.lyt3 {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 0px 0px 24px;
+  }
+  &cover-group {
+    display: flex;
+    background-color: $font_color_type1;
+    border-style: none;
+    border-radius: 0px 0px 15px 15px;
+  }
+  &cover-group.lyt {
+    position: relative;
+    overflow: visible;
+    min-height: 211px;
+    margin: 0px;
+  }
+  &flex1 {
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  &flex1.lyt {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 14px 20.01px 23.82px 36px;
+  }
+  &flex1-col {
+    display: flex;
+    flex: 0 1 315.93px;
+
+  }
+  &flex.lyt {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &flex3 {
+    display: flex;
+  }
+  &flex3.lyt {
+    position: relative;
+    overflow: visible;
+    margin: 0px 0px 0px 4.5px;
+  }
+  &flex3-col {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 28px;
+  }
+  &small-text-body {
+    display: flex;
+    justify-content: center;
+    font: $font_type0;
+    color: rgb(98, 95, 95);
+    text-align: center;
+    letter-spacing: 0;
+  }
+  &small-text-body.lyt {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px 0px 0.3px;
+  }
+  &flex3-spacer {
+    display: flex;
+    flex: 1 1 205.5px;
+  }
+  &img {
+    background: $background_type0;
+  }
+  &img.lyt {
+    position: relative;
+    height: 5.31px;
+    width: 3.77px;
+    min-width: 3.77px;
+    margin: 6.69px 0px 2.3px;
+  }
+  &flex3-spacer1 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 1.3px;
+  }
+  &img.lyt1 {
+    position: relative;
+    height: 6.69px;
+    width: 3.77px;
+    min-width: 3.77px;
+    margin: 5.31px 0px 2.3px;
+  }
+  &flex3-spacer2 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 1.32px;
+  }
+  &img.lyt2 {
+    position: relative;
+    height: 8.43px;
+    width: 3.77px;
+    min-width: 3.77px;
+    margin: 3.57px 0px 2.3px;
+  }
+  &flex3-spacer3 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 1.29px;
+  }
+  &img.lyt3 {
+    position: relative;
+    height: 11px;
+    width: 3.77px;
+    min-width: 3.77px;
+    margin: 1px 0px 2.3px;
+  }
+  &flex3-spacer4 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 7.01px;
+  }
+  &group1 {
+    display: flex;
+  }
+  &group1.lyt {
+    position: relative;
+    overflow: visible;
+    flex: 0 1 18px;
+    min-height: 12px;
+    margin: 1px 0px 1.3px;
+  }
+  &decorator {
+    background: $background_type0;
+  }
+  &decorator.lyt {
+    position: absolute;
+    top: 0px;
+    height: 4.2px;
+    left: 0px;
+    right: 0px;
+    width: 6.27px;
+    min-width: 6.27px;
+    display: block;
+    margin: 7.8px auto 0px;
+  }
+  &decorator.lyt1 {
+    position: absolute;
+    top: 0px;
+    height: 3.8px;
+    left: 0px;
+    width: 11.92px;
+    min-width: 11.92px;
+    margin: 4.06px 3.03px 4.14px 3.05px;
+  }
+  &image {
+    background: $background_type0;
+  }
+  &image.lyt {
+    position: relative;
+    height: 5.01px;
+    width: 18px;
+    min-width: 18px;
+    margin: 0px 0px 6.99px;
+  }
+  &flex3-spacer5 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 7.69px;
+  }
+  &cover-group1 {
+    display: flex;
+    background: $background_type1;
+  }
+  &cover-group1.lyt {
+    position: relative;
+    overflow: visible;
+    flex: 0 1 26.24px;
+    min-height: 12.6px;
+    margin: 1.7px 0px 0px;
+  }
+  &image.lyt1 {
+    position: relative;
+    height: 9.32px;
+    width: 22.93px;
+    min-width: 22.93px;
+    margin: 1.64px 1.66px;
+  }
+  &flex4 {
+    display: flex;
+  }
+  &flex4.lyt {
+    position: relative;
+    overflow: visible;
+    margin: 19.7px 0px 0px;
+  }
+  &cover-group2 {
+    display: flex;
+    background: $background_type0;
+  }
+  &cover-group2.lyt {
+    position: relative;
+    overflow: visible;
+    flex: 0 1 15px;
+    min-height: 19.46px;
+    margin: 2px 0px 0px;
+  }
+  &icon {
+    background: $background_type0;
+  }
+  &icon.lyt {
+    position: relative;
+    min-height: 3.63px;
+    width: 3.63px;
+    min-width: 3.63px;
+    display: block;
+    margin: 6.03px auto 9.8px;
+  }
+  &flex4-spacer {
+    display: flex;
+    flex: 0 1 10px;
+  }
+  &small-text-body1-box {
+    display: flex;
+    justify-content: center;
+  }
+  &small-text-body1-box.lyt {
+    position: relative;
+    flex: 0 1 94px;
+    margin: 5px 0px 6.46px;
+  }
+  &small-text-body1 {
+    font: $font_type1;
+    color: $font_color_type2;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  &small-text-body1-span0 {
+    font: $font_type2;
+    color: $font_color_type3;
+    letter-spacing: 0;
+  }
+  &small-text-body1-span1 {
+    font: $font_type2;
+    color: $font_color_type4;
+    letter-spacing: 0;
+  }
+  &flex4-spacer1 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 2px;
+  }
+  &flex4-col {
+    display: flex;
+    flex: 1 0 auto;
+    min-width: 9px;
+  }
+  &img.lyt4 {
+    position: relative;
+    height: 3.5px;
+    width: 9px;
+    min-width: 9px;
+    margin: 9px 0px 8.96px;
+  }
+  &flex4-spacer2 {
+    display: flex;
+    flex: 0 1 148px;
+  }
+  &change {
+    display: flex;
+    justify-content: center;
+    font: $font_type1;
+    color: rgb(168, 165, 165);
+    text-align: center;
+    letter-spacing: 0;
+  }
+  &change.lyt {
+    position: relative;
+    flex: 0 1 33px;
+    margin: 0px 0px 11.46px;
+  }
+  &cover-group3 {
+    display: flex;
+    background-color: $font_color_type0;
+    border-radius: 14px 14px 14px 14px;
+  }
+  &cover-group3.lyt {
+    position: relative;
+    overflow: visible;
+    min-height: 49px;
+    margin: 22.54px 4.93px 0px 0px;
+  }
+  &text-body {
+    display: flex;
+    justify-content: center;
+    font: $font_type3;
+    color: $font_color_type2;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  &text-body.lyt {
+    position: relative;
+    flex-grow: 1;
+    margin: 15px 43.5px 18px 66.5px;
+  }
+  &flex5 {
+    display: flex;
+  }
+  &flex5.lyt {
+    position: relative;
+    overflow: visible;
+    margin: 22px 69.7px 0px 87.23px;
+  }
+  &distance {
+    font: $font_type4;
+    color: $font_color_type5;
+    letter-spacing: 0;
+  }
+  &distance.lyt {
+    position: relative;
+    flex: 0 0 auto;
+    margin: 0px;
+  }
+  &flex5-spacer {
+    display: flex;
+    flex: 1 1 64px;
+  }
+  &delivery-time {
+    font: $font_type4;
+    color: $font_color_type5;
+    letter-spacing: 0;
+  }
+  &delivery-time.lyt {
+    position: relative;
+    flex: 0 0 auto;
+    margin: 0px;
+  }
+  &flex6 {
+    display: flex;
+  }
+  &flex6.lyt {
+    position: relative;
+    overflow: visible;
+    margin: 4px 75px 0px;
+  }
+  &cover-group4 {
+    display: flex;
+    background: $background_type1;
+  }
+  &cover-group4.lyt {
+    position: relative;
+    overflow: visible;
+    flex: 0 1 7.71px;
+    min-height: 10px;
+    margin: 0px 0px 0.18px;
+  }
+  &icon.lyt1 {
+    position: relative;
+    height: 1.86px;
+    width: 1.86px;
+    min-width: 1.86px;
+    display: block;
+    margin: 3.1px auto 5.04px;
+  }
+  &flex6-spacer {
+    display: flex;
+    flex: 0 1 4.52px;
+  }
+  &small-text-body2 {
+    font: $font_type4;
+    color: $font_color_type2;
+    letter-spacing: 0;
+  }
+  &small-text-body2.lyt {
+    position: relative;
+    margin: 0px 0px 0.18px;
+  }
+  &flex6-spacer1 {
+    display: flex;
+    flex: 1 0 auto;
+    min-width: 31.5px;
+  }
+  &cover-group5 {
+    display: flex;
+    background: $background_type1;
+  }
+  &cover-group5.lyt {
+    position: relative;
+    overflow: visible;
+    flex: 0 1 9.68px;
+    min-height: 9.68px;
+    margin: 0.5px 0px 0px;
+  }
+  &icon.lyt2 {
+    position: relative;
+    height: 3.21px;
+    width: 3.2px;
+    min-width: 3.2px;
+    margin: 1.63px 0px 4.84px 1.64px;
+  }
+  &flex6-spacer2 {
+    display: flex;
+    flex: 0 1 6.82px;
+  }
+  &small-text-body3 {
+    font: $font_type4;
+    color: $font_color_type2;
+    letter-spacing: 0;
+  }
+  &small-text-body3.lyt {
+    position: relative;
+    margin: 0px 0px 0.18px;
+  }
+  &flex7 {
+    display: flex;
+  }
+  &flex7.lyt {
+    position: relative;
+    overflow: visible;
+    margin: 36px 28px 0px 55px;
+  }
+  &order-details {
+    font: $font_type5;
+    color: $font_color_type2;
+    letter-spacing: 0;
+  }
+  &order-details.lyt {
+    position: relative;
+    flex: 0 0 auto;
+    margin: 8px 0px 5px;
+  }
+  &flex7-spacer {
+    display: flex;
+    flex: 1 1 97px;
+  }
+  &cover-group6 {
+    display: flex;
+  }
+  &cover-group6.lyt {
+    position: relative;
+    overflow: visible;
+    flex: 0 1 109px;
+    min-height: 29px;
+    margin: 0px;
+  }
+  &background {
+    background-color: $font_color_type1;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 6px 6px 6px 6px;
+  }
+  &background.lyt {
+    position: absolute;
+    top: 0px;
+    height: 29px;
+    left: 0px;
+    flex-grow: 1;
+    right: 0px;
+    margin: 0px;
+  }
+  &small-text-body4 {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type6;
+    color: rgb(169, 169, 169);
+    text-align: right;
+    letter-spacing: 0;
+  }
+  &small-text-body4.lyt {
+    position: relative;
+    flex-grow: 1;
+    margin: 8px 17px;
+  }
+  &flex8 {
+    display: flex;
+  }
+  &flex8.lyt {
+    position: relative;
+    overflow: visible;
+    margin: 17px 25px 0px 55px;
+  }
+  &cover-group7 {
+    display: flex;
+    background-color: $font_color_type6;
+    border-radius: $border_radius_type0;
+  }
+  &cover-group7.lyt {
+    position: relative;
+    overflow: visible;
+    flex: 0 1 26px;
+    min-height: 26px;
+    margin: 0px;
+  }
+  &text-body1 {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type3;
+    color: $font_color_type1;
+    text-align: right;
+    letter-spacing: 0;
+  }
+  &text-body1.lyt {
+    position: relative;
+    flex-grow: 1;
+    margin: 5px;
+  }
+  &flex8-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 10px;
+  }
+  &pizza-milo {
+    font: $font_type5;
+    color: $font_color_type2;
+    letter-spacing: 0;
+  }
+  &pizza-milo.lyt {
+    position: relative;
+    flex: 0 0 auto;
+    margin: 5px 0px;
+  }
+  &flex8-spacer1 {
+    display: flex;
+    flex: 1 1 161px;
+  }
+  &text-body2 {
+    font: $font_type3;
+    color: $font_color_type2;
+    letter-spacing: 0;
+  }
+  &text-body2.lyt {
+    position: relative;
+    flex: 0 0 auto;
+    margin: 0px 0px 10px;
+  }
+  &flex9 {
+    display: flex;
+  }
+  &flex9.lyt {
+    position: relative;
+    overflow: visible;
+    margin: 12px 25px 0px 55px;
+  }
+  &cover-group8 {
+    display: flex;
+    background-color: $font_color_type6;
+    border-radius: $border_radius_type0;
+  }
+  &cover-group8.lyt {
+    position: relative;
+    overflow: visible;
+    flex: 0 1 26px;
+    min-height: 26px;
+    margin: 0px;
+  }
+  &text-body3 {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type3;
+    color: $font_color_type1;
+    text-align: right;
+    letter-spacing: 0;
+  }
+  &text-body3.lyt {
+    position: relative;
+    flex-grow: 1;
+    margin: 5px;
+  }
+  &flex9-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 10px;
+  }
+  &crispy-burger {
+    font: $font_type5;
+    color: $font_color_type2;
+    letter-spacing: 0;
+  }
+  &crispy-burger.lyt {
+    position: relative;
+    flex: 0 0 auto;
+    margin: 5px 0px;
+  }
+  &flex9-spacer1 {
+    display: flex;
+    flex: 1 1 141px;
+  }
+  &text-body4 {
+    font: $font_type3;
+    color: $font_color_type2;
+    letter-spacing: 0;
+  }
+  &text-body4.lyt {
+    position: relative;
+    flex: 0 0 auto;
+    margin: 8px 0px 2px;
+  }
+  &flex10 {
+    display: flex;
+  }
+  &flex10.lyt {
+    position: relative;
+    overflow: visible;
+    margin: 33px 21px 0px 53px;
+  }
+  &flex10-col {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 145px;
+  }
+  &paragraph-body-box.lyt {
+    position: relative;
+    flex-grow: 1;
+    margin: 3px 0px 0px;
+  }
+  &paragraph-body {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type3;
+    color: $font_color_type2;
+    letter-spacing: 0;
+    white-space: pre-wrap;
+  }
+  &paragraph-body-span0 {
+    font: $font_type7;
+    color: $font_color_type3;
+    letter-spacing: 0;
+  }
+  &paragraph-body-span1 {
+    font: $font_type8;
+    color: $font_color_type4;
+    letter-spacing: 0;
+  }
+  &paragraph-body-span2 {
+    font: $font_type7;
+    color: $font_color_type3;
+    letter-spacing: 0;
+  }
+  &flex10-spacer {
+    display: flex;
+    flex: 1 1 120px;
+  }
+  &flex.lyt1 {
+    position: relative;
+    overflow: visible;
+    flex: 0 1 36px;
+    margin: 0px 0px 2px;
+  }
+  &text-body5 {
+    font: $font_type3;
+    color: $font_color_type2;
+    letter-spacing: 0;
+  }
+  &text-body5.lyt {
+    position: relative;
+    margin: 0px 4px;
+  }
+  &text-body6 {
+    font: $font_type9;
+    color: rgb(238, 41, 41);
+    letter-spacing: 0;
+  }
+  &text-body6.lyt {
+    position: relative;
+    margin: 44px 0px 0px;
+  }
+  &cover-group9 {
+    display: flex;
+  }
+  &cover-group9.lyt {
+    position: relative;
+    overflow: visible;
+    min-height: 111px;
+    margin: 74px 28px 0px 49px;
+  }
+  &background1 {
+    background-color: $font_color_type0;
+    border: $border_type0;
+    border-radius: $border_radius_type1;
+  }
+  &background1.lyt {
+    position: absolute;
+    top: 0px;
+    height: 111px;
+    left: 0px;
+    flex-grow: 1;
+    right: 0px;
+    margin: 0px;
+  }
+  &foreground {
+    display: flex;
+  }
+  &foreground.lyt {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 28px 9px 29px 21px;
+  }
+  &flex.lyt2 {
+    position: relative;
+    overflow: visible;
+    flex: 0 1 20px;
+    margin: 0px;
+  }
+  &rect {
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: $border_radius_type0;
+  }
+  &rect.lyt {
+    position: relative;
+    height: 20px;
+    margin: 0px;
+  }
+  &rect1 {
+    background-color: $font_color_type7;
+    border-radius: $border_radius_type0;
+  }
+  &rect1.lyt {
+    position: relative;
+    height: 20px;
+    margin: 14px 0px 0px;
+  }
+  &foreground-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 16px;
+  }
+  &foreground-col {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 107px;
+  }
+  &paragraph-body1-box.lyt {
+    position: relative;
+    flex-grow: 1;
+    margin: 3px 0px;
+  }
+  &paragraph-body1-span0 {
+    font: $font_type8;
+    color: #aeaeaeff;
+    letter-spacing: 0;
+  }
+  &paragraph-body1-span1 {
+    font: $font_type7;
+    color: $font_color_type3;
+    letter-spacing: 0;
+  }
+  &foreground-spacer1 {
+    display: flex;
+    flex: 1 0 auto;
+    min-width: 23px;
+  }
+  &foreground-col1 {
+    display: flex;
+    flex: 0 1 31px;
+  }
+  &cover-group10 {
+    display: flex;
+    background-color: $font_color_type2;
+    border-radius: $border_radius_type0;
+  }
+  &cover-group10.lyt {
+    position: relative;
+    overflow: visible;
+    min-height: 16px;
+    width: 31px;
+    min-width: 31px;
+    margin: 37px 0px 1px;
+  }
+  &icon-wrap {
+    display: flex;
+  }
+  &icon-wrap.lyt {
+    position: relative;
+    overflow: visible;
+    min-height: 10px;
+    flex-grow: 1;
+    margin: 3px 7px 3px 6px;
+  }
+  &icon.lyt3 {
+    position: absolute;
+    top: 0px;
+    height: 10px;
+    width: 10px;
+    min-width: 10px;
+    right: 0px;
+    margin: 0px;
+  }
+  &icon.lyt4 {
+    position: relative;
+    height: 10px;
+    width: 10px;
+    min-width: 10px;
+    margin: 0px;
+  }
+  &icon.lyt5 {
+    position: relative;
+    height: 6px;
+    width: 6px;
+    min-width: 6px;
+    margin: 42px 0px 6px;
+  }
+  &foreground-spacer3 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 1px;
+  }
+  &icon.lyt6 {
+    position: relative;
+    height: 6px;
+    width: 6px;
+    min-width: 6px;
+    margin: 42px 0px 6px;
+  }
+  &foreground-spacer4 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 1px;
+  }
+  &icon.lyt7 {
+    position: relative;
+    height: 6px;
+    width: 6px;
+    min-width: 6px;
+    margin: 42px 0px 6px;
+  }
+  &foreground-spacer5 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 1px;
+  }
+  &icon.lyt8 {
+    position: relative;
+    height: 6px;
+    width: 6px;
+    min-width: 6px;
+    margin: 42px 0px 6px;
+  }
+  &foreground-spacer6 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 5px;
+  }
+  &foreground-col2 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 23px;
+  }
+  &small-text-body5 {
+    display: flex;
+    justify-content: center;
+    font: $font_type4;
+    color: $font_color_type2;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  &small-text-body5.lyt {
+    position: relative;
+    flex-grow: 1;
+    margin: 39px 0px 5px;
+  }
+  &cover-group11 {
+    display: flex;
+  }
+  &cover-group11.lyt {
+    position: relative;
+    overflow: visible;
+    min-height: 49px;
+    margin: 0px 28px 0px 49px;
+  }
+  &background2 {
+    background-color: $font_color_type0;
+    border: $border_type0;
+    border-radius: $border_radius_type1;
+  }
+  &background2.lyt {
+    position: absolute;
+    top: 0px;
+    height: 49px;
+    left: 0px;
+    flex-grow: 1;
+    right: 0px;
+    margin: 0px;
+  }
+  &text-body7 {
+    display: flex;
+    justify-content: center;
+    font: $font_type10;
+    color: rgb(163, 163, 163);
+    text-align: center;
+    letter-spacing: 0;
+  }
+  &text-body7.lyt {
+    position: relative;
+    flex-grow: 1;
+    margin: 14px 0px;
+  }
+  &cover-group12 {
+    display: flex;
+    background-color: $font_color_type7;
+    border-radius: 5px 5px 5px 5px;
+  }
+  &cover-group12.lyt {
+    position: relative;
+    overflow: visible;
+    min-height: 40px;
+    margin: 41px 28px 0px 34px;
+  }
+  &pay-now {
+    display: flex;
+    justify-content: center;
+    font: $font_type9;
+    color: $font_color_type1;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  &pay-now.lyt {
+    position: relative;
+    width: 76px;
+    min-width: 76px;
+    margin: 9px auto 10px;
+  }
+}
